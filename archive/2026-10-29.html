@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="report-date" content="2026-10-29">
+  <title>亚马逊及海外市场情报增量日报｜2026-10-29</title>
+  <style>
+    :root { --ink:#172033; --muted:#667085; --line:#dce2ea; --blue:#155eef; --soft:#f7f9fc; }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); background:#eef2f7; font:15px/1.72 system-ui,-apple-system,"Segoe UI","Microsoft YaHei",sans-serif; }
+    main { width:min(1180px,calc(100% - 28px)); margin:28px auto; padding:48px 52px; background:#fff; border:1px solid var(--line); border-radius:16px; box-shadow:0 12px 35px rgba(16,24,40,.07); }
+    .report-title { margin:0 0 8px; font-size:32px; line-height:1.3; letter-spacing:-.02em; }
+    h2 { margin:38px 0 14px; padding-left:12px; border-left:4px solid var(--blue); font-size:22px; }
+    h3 { margin:28px 0 10px; font-size:18px; }
+    h4 { margin:22px 0 8px; }
+    p { margin:10px 0; }
+    ul { margin:8px 0 16px; padding-left:24px; }
+    li { margin:6px 0; }
+    a { color:#175cd3; text-decoration:none; word-break:break-word; }
+    a:hover { text-decoration:underline; }
+    code { padding:2px 6px; border-radius:5px; background:#eef2f6; }
+    .table-wrap { margin:14px 0 24px; overflow-x:auto; border:1px solid var(--line); border-radius:10px; }
+    table { width:100%; border-collapse:collapse; min-width:760px; }
+    th { background:var(--soft); text-align:left; font-weight:650; }
+    th,td { padding:11px 12px; border-bottom:1px solid var(--line); vertical-align:top; }
+    tr:last-child td { border-bottom:0; }
+    footer { margin-top:42px; padding-top:16px; border-top:1px solid var(--line); color:var(--muted); font-size:13px; }
+    @media (max-width:720px) { main { width:100%; margin:0; padding:28px 18px; border:0; border-radius:0; } .report-title { font-size:25px; } }
+  </style>
+</head>
+<body>
+  <main>
+<h1 class="report-title">亚马逊及海外市场情报增量日报｜2026-10-29</h1>
+<h2>今日判断</h2>
+<p>今日无重大运营变化。本次覆盖 2026-10-28 09:03 至 2026-10-29 09:05（Asia/Shanghai）；未发现可验证的 Amazon Seller Central、Amazon Ads、US/UK/EU 监管、税务、关税、物流新规，也未发现既有事项在费用、日期、影响范围或官方解释上的实质变化。</p>
+<p>最高优先级仍是 US、UK BFCM ASIN 的 Received、Available、FC transfer 与 Deal Health 异常闭环；不得将“已发货”或“已预约”作为可售库存证据。最紧急的临近节点为 2026-10-30：若 US/UK 自发货 Amazon Business 的 Business Hour Delivery Rate 未改善，相关 offer 可能被停用；仅适用于有 Amazon Business 自发货订单的账号。欧盟 Union handling fee（2026-11-01）与商业责任险适用性（2026-11-02）未出现新的官方金额、范围或账户侧解释。</p>
+<h2>持续关注</h2>
+<h3>1. US/UK BFCM FBA 入仓与可售库存异常</h3>
+<ul>
+<li><strong>事项：</strong> US 与 UK Q4/BFCM FBA 节点到期后的逐 ASIN 异常闭环（<code>amz-q4-peak-holiday-2026-deadlines</code>、<code>amz-eu-q4-peak-holiday-2026-deadlines</code>）</li>
+<li><strong>当前状态：</strong> 到仓节点已过；持续核验 Shipment、Received%、Available、FC transfer、Deal Health 及库存覆盖天数。未发现新的官方日期、费用或范围变化。</li>
+<li><strong>下次复查日期：</strong> 2026-10-29</li>
+<li><strong>触发升级条件：</strong> BFCM ASIN 的 <code>Received &lt; 100%</code>、<code>Available = 0</code>、FC transfer 超预约 ETA、Deal eligibility warning，或可售覆盖天数低于促销期需求加 7 天安全库存。</li>
+</ul>
+<h3>2. US/UK Amazon Business 自发货时效要求</h3>
+<ul>
+<li><strong>事项：</strong> Business Hour Delivery Rate 90% 要求（<code>amazon-business-bhdr-90-seller-fulfilled-us-2026-09-30</code>）</li>
+<li><strong>当前状态：</strong> 2026-10-30 起，指标未改善的 Amazon Business 自发货 offer 可能被停用；FBA 与 Retail offer 不受此节点影响。账号适用性和实际指标须以 Account Health/Delivery Performance 为准。</li>
+<li><strong>下次复查日期：</strong> 2026-10-30</li>
+<li><strong>触发升级条件：</strong> BHDR 低于 90%、存在 Amazon Business 自发货订单或收到 Account Health 通知；届时导出滚动 14 天失败订单，按承运商、AHT、SSA 与 Buy Shipping 使用状态指定纠正责任人。</li>
+</ul>
+<h3>3. 欧盟直邮成本与商业责任险</h3>
+<ul>
+<li><strong>事项：</strong> Union handling fee（<code>eu-customs-reform-implementation-2026-09-21</code>）及 Amazon 商业责任险（<code>amazon-commercial-liability-insurance-enhanced-safety-aia-2026-11-02</code>）</li>
+<li><strong>当前状态：</strong> 2026-11-01 起的 UHF 实际收费承担方、以及 2026-11-02 生效的保险账号适用性，均仍待承运商合同/账单和 Seller Central Account Health 确认。</li>
+<li><strong>下次复查日期：</strong> 2026-10-30</li>
+<li><strong>触发升级条件：</strong> 收到承运商收费字段或费用转嫁书面确认；或出现保险警告、enhanced safety category 归类、保单主体/地域/额度/到期日不一致。</li>
+</ul>
+<h2>情报边界与可信度</h2>
+<ul>
+<li><strong>来源总数：</strong> 8 个复核来源；<strong>官方来源：</strong> 8 个；<strong>非官方来源：</strong> 0 个；<strong>仍待确认事项：</strong> 3 个（US/UK BFCM 实际可售状态、Amazon Business 自发货账号 BHDR 指标、UHF/保险账号侧适用性）。</li>
+<li><strong>本次排除：</strong> 无新增事实的 Amazon Ads DVA+ 与 Review Requests beta 预告、Amazon 公司新闻、BFCM 截止日转载、Seller Forums 个案讨论，以及未提供新规则、数值、日期、范围或运营影响的内容。</li>
+<li><strong>可信度结论：</strong> 本日为“无新增/无实质更新”短报；持续事项均来自此前已发布的一手 Amazon 或政府来源。实际账户影响必须以 Seller Central、Account Health、承运商合同和真实账单验证。</li>
+</ul>
+<h2>复核来源</h2>
+<ul>
+<li><a href="https://sellercentral.amazon.com/seller-forums/discussions/t/57222b70-40df-4574-aa0f-9f815c197987" target="_blank" rel="noopener noreferrer">Amazon US Business Hour Delivery Rate 公告</a></li>
+<li><a href="https://sellercentral.amazon.co.uk/seller-forums/discussions/t/20198e40-521c-4a27-b682-3f088fa0a7dc" target="_blank" rel="noopener noreferrer">Amazon UK Business Hour Delivery Rate 公告</a></li>
+<li><a href="https://sellercentral.amazon.com/seller-forums/discussions/t/d7ae5a95-6af4-42ca-9a06-1360007f155c" target="_blank" rel="noopener noreferrer">Amazon US BFCM / FBA 截止日公告</a></li>
+<li><a href="https://sellercentral.amazon.co.uk/seller-forums/discussions/t/67ab1bf7-8ea5-4a10-ab19-dc600193715a" target="_blank" rel="noopener noreferrer">Amazon Europe peak-season FBA 公告</a></li>
+<li><a href="https://advertising.amazon.com/en-ca/resources/whats-new/get-product-reviews-faster-with-review-requests" target="_blank" rel="noopener noreferrer">Amazon Ads：Review Requests</a></li>
+<li><a href="https://advertising.amazon.com/resources/whats-new/dva-plus-display-video-audio-campaigns" target="_blank" rel="noopener noreferrer">Amazon Ads：DVA+</a></li>
+<li><a href="https://www.revenue.ie/en/customs/individuals/union-handling-fee/index.aspx" target="_blank" rel="noopener noreferrer">Revenue Ireland：Union handling fee</a></li>
+<li><a href="https://sellercentral.amazon.com/help/hub/reference/external/GUQ848NB5HZ6M6A4" target="_blank" rel="noopener noreferrer">Amazon 商业责任险帮助页</a></li>
+</ul>
+    <footer>亚马逊及海外市场情报 · 报告日期 2026-10-29</footer>
+  </main>
+</body>
+</html>
+
